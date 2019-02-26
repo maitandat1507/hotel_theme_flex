@@ -217,11 +217,13 @@
 // HOTEL OVERVIEW
 .overview {
     display: flex;
-    justify-content: space-between;
     
     &__heading {}
 
-    &__stars {}
+    &__stars {
+        margin-right: auto;
+        background-color: orangered;
+    }
 
     &__icon-star,
     &__icon-location {
@@ -230,7 +232,9 @@
         fill: var(--color-primary);
     }
 
-    &__location {}
+    &__location {
+        // flex: 1;
+    }
 
     &__rating
 
